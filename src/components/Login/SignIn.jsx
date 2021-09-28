@@ -16,7 +16,7 @@ function SignIn() {
     <>
       <div className={styles.formBox}>
         <div className={styles.buttonBox}>
-          <Link to="/signIn">
+          <Link to="/foodify/signIn">
             <button
               type="button"
               className={styles.toggleBtn}
@@ -25,7 +25,7 @@ function SignIn() {
               Log-In
             </button>
           </Link>
-          <Link to="signUp">
+          <Link to="/foodify/signUp">
             <button type="button" className={styles.toggleBtn}>
               Sign-Up
             </button>

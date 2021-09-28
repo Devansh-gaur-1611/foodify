@@ -10,10 +10,10 @@ const App = () => {
   return (
     <>
       <MainNavBar />
-      <Route path="/" exact component={Restaurant} />
-      <Route path="/contact" exact component={Contact_Us} />
-      <Route path="/signIn" exact component={SignIn} />
-      <Route path="/signUp" exact component={SignUp} />
+      <Route path="/foodify/" exact component={Restaurant} />
+      <Route path="/foodify/contact" exact component={Contact_Us} />
+      <Route path="/foodify/signIn" exact component={SignIn} />
+      <Route path="/foodify/signUp" exact component={SignUp} />
     </>
   );
 };
