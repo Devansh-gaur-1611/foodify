@@ -1,0 +1,36 @@
+.Nav_Main {
+  background-color: #ff9f009e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TitleName {
+  color: white;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  padding: 10px;
+}
+.Buttons ul {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  list-style: none;
+  padding: 6px;
+}
+.Buttons ul li {
+  padding: 6px;
+  padding-left: 15px;
+  align-items: center;
+
+  color: white;
+  font-size: 15px;
+}
+.Buttons ul li:hover {
+  cursor: pointer;
+  color: rgb(182, 135, 17);
+}
+
+.Buttons ul a {
+  text-decoration: none;
+}

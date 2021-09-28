@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <MainNavBar />
-      <Route path="/foodifyRestaurant/" exact component={Restaurant} />
+      <Route path="/" exact component={Restaurant} />
       <Route path="/contact" exact component={Contact_Us} />
       <Route path="/signIn" exact component={SignIn} />
       <Route path="/signUp" exact component={SignUp} />
