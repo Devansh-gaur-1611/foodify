@@ -15,12 +15,12 @@ function SignUp() {
     <>
       <div className={styles.formBox}>
         <div className={styles.buttonBox}>
-          <Link to="/foodify/signIn">
+          <Link to="/signIn">
             <button type="button" className={styles.toggleBtn}>
               Log-In
             </button>
           </Link>
-          <Link to="/foodify/signUp">
+          <Link to="/signUp">
             <button
               type="button"
               className={styles.toggleBtn}

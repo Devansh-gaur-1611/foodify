@@ -9,13 +9,13 @@ function MainNavBar() {
         <div className={styles.TitleName}>Foodify Restaurant</div>
         <div className={styles.Buttons}>
           <ul>
-            <Link to="/foodify/">
+            <Link to="/">
               <li>Home</li>
             </Link>
-            <Link to="/foodify/contact">
+            <Link to="/contact">
               <li>Contact Us</li>
             </Link>
-            <Link to="/foodify/signIn">
+            <Link to="/signIn">
               <li>Login +</li>
             </Link>
           </ul>
